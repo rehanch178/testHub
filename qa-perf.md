@@ -1,4 +1,4 @@
-| InstanceName            |   Max-cpu |   Max-mem | Mount-path   |   Usage | Mount-path   |   Usage | Mount-path   |   Usage |
-|:------------------------|----------:|----------:|:-------------|--------:|:-------------|--------:|:-------------|--------:|
-| qa-perf-worker-es-hdfs  |        19 |        38 | /lib/modules |       3 | /run         |       3 | /            |      25 |
-| qa-perf-worker-kakfa-zk |         1 |        45 | /dev         |       0 | /            |      24 |              |         |
+| InstanceName            |   Mx-cpu |   Mx-mem | Mnt-path     |   Used | Mnt-path   |   Used | Mnt-path   |   Used |
+|:------------------------|---------:|---------:|:-------------|-------:|:-----------|-------:|:-----------|-------:|
+| qa-perf-worker-es-hdfs  |        0 |       39 | /lib/modules |      3 | /run       |      4 | /          |     25 |
+| qa-perf-worker-kakfa-zk |        0 |       45 | /dev         |      0 | /          |     24 |            |        |
