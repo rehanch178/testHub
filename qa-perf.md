@@ -1,20 +1,20 @@
-| InstanceName                |   Mx-cpu(%) |   Mx-mem(%) | Disk                |   Used(%) | Disk                |   Used(%) |
-|:----------------------------|------------:|------------:|:--------------------|----------:|:--------------------|----------:|
-| qa-new-CFT-worker-es-hdfs   |           4 |          25 | /mnt/es             |         0 | /mnt/hdfs           |         0 |
-| qa-new-CFT-worker-zk-kafka  |           1 |           4 | /mnt/kafka          |         0 | /mnt/zk             |         0 |
-| qa-new-CFT-worker-es-kibana |          15 |          19 | /mnt/es             |         0 | /mnt/es_log         |         0 |
-| qa-new-CFT-Manager          |          42 |          18 | /mnt/local          |         0 | /                   |        26 |
-| qa-new-CFT-Manager          |          17 |          16 | /                   |        25 | /mnt/local          |         0 |
-| qa-new-CFT-worker-storm     |           4 |           3 | /                   |        25 | /mnt/local          |        27 |
-| qa-new-CFT-worker-storm     |           4 |           3 | /                   |        25 | /mnt/local          |        27 |
-| qa-new-CFT-Manager          |          48 |          16 | /                   |        25 | /mnt/local          |         0 |
-| qa-new-CFT-worker-zk-kafka  |           4 |           5 | /mnt/zk             |         0 | /mnt/kafka          |         0 |
-| qa-new-CFT-worker-storm     |           1 |           3 | /mnt/local          |        27 | /                   |        25 |
-| qa-new-CFT-worker-es-hdfs   |          13 |          26 | /mnt/hdfs           |         0 | /mnt/es             |         0 |
-| qa-new-CFT-worker-es-nn1    |          16 |          22 | /mnt/es             |         0 | /mnt/hdfs_namenode1 |         0 |
-| qa-new-CFT-worker-util      |           4 |           3 | /                   |        25 | /mnt/local          |        27 |
-| qa-new-CFT-worker-es-kibana |          15 |          19 | /mnt/es             |         0 | /mnt/es_log         |         0 |
-| qa-new-CFT-worker-hdfs-nn2  |           4 |          23 | /mnt/hdfs_namenode2 |         0 | /mnt/hdfs           |         0 |
-| qa-new-CFT-worker-es-kibana |          15 |          19 | /mnt/es_log         |         0 | /mnt/es             |         0 |
-| qa-new-CFT-worker-zk-kafka  |           4 |           4 | /mnt/kafka          |         0 | /mnt/zk             |         0 |
-| qa-new-CFT-worker-util      |           5 |           3 | /mnt/local          |        27 | /                   |        25 
+| InstanceName                    |   Mx-cpu |   Mx-mem | Mnt-path    |   Used | Mnt-path            |   Used |
+|:--------------------------------|---------:|---------:|:------------|-------:|:--------------------|-------:|
+| qa-dynamic-CFT-Manager          |        7 |       11 | /           |     28 | /mnt/local          |      0 |
+| qa-dynamic-CFT-Manager          |        7 |       15 | /           |     25 | /mnt/local          |      0 |
+| qa-dynamic-CFT-Manager          |        8 |       16 | /mnt/local  |      0 | /                   |     25 |
+| qa-dynamic-CFT-worker-es-hdfs   |        0 |       21 | /mnt/es     |      0 | /mnt/hdfs           |      0 |
+| qa-dynamic-CFT-worker-es-hdfs   |        5 |       23 | /mnt/es     |      0 | /mnt/hdfs           |      0 |
+| qa-dynamic-CFT-worker-es-kibana |        3 |       38 | /mnt/es     |      0 | /mnt/es_log         |      0 |
+| qa-dynamic-CFT-worker-es-kibana |        3 |       40 | /mnt/es_log |      0 | /mnt/es             |      0 |
+| qa-dynamic-CFT-worker-es-kibana |        1 |       36 | /mnt/es     |      0 | /mnt/es_log         |      0 |
+| qa-dynamic-CFT-worker-es-nn1    |       99 |       26 | /mnt/es     |      0 | /mnt/hdfs_namenode1 |      0 |
+| qa-dynamic-CFT-worker-hdfs-nn2  |       99 |       27 | /mnt/hdfs   |      0 | /mnt/hdfs_namenode2 |      0 |
+| qa-dynamic-CFT-worker-storm     |        1 |        9 | /mnt/local  |     27 | /                   |     27 |
+| qa-dynamic-CFT-worker-storm     |        1 |        8 | /           |     27 | /mnt/local          |     27 |
+| qa-dynamic-CFT-worker-storm     |        1 |        9 | /           |     27 | /mnt/local          |     27 |
+| qa-dynamic-CFT-worker-util      |        1 |       25 | /           |     29 | /mnt/local          |     27 |
+| qa-dynamic-CFT-worker-util      |       31 |       27 | /           |     31 | /mnt/local          |     27 |
+| qa-dynamic-CFT-worker-zk-kafka  |        0 |        5 | /mnt/zk     |      0 | /mnt/kafka          |      0 |
+| qa-dynamic-CFT-worker-zk-kafka  |        0 |        4 | /mnt/zk     |      0 | /mnt/kafka          |      0 |
+| qa-dynamic-CFT-worker-zk-kafka  |        3 |        5 | /mnt/kafka  |      0 | /mnt/zk             |      0 |
