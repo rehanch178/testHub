@@ -1,25 +1,20 @@
 | InstanceName         |   Avg-CPU-Usage |   Avg-Mem-Usage | Disk        |   Used(%) | Disk                |   Used(%) |
 |:---------------------|----------------:|----------------:|:------------|----------:|:--------------------|----------:|
-| qa7-Manager          |               6 |              16 | /           |        28 | /mnt/local          |         0 |
-| qa7-Manager          |               5 |              17 | /           |        26 | /mnt/local          |         0 |
-| qa7-Manager          |               5 |              17 | /mnt/local  |         0 | /                   |        26 |
-| qa7-worker-es-hdfs   |               8 |              38 | /mnt/es     |         3 | /mnt/hdfs           |         0 |
-| qa7-worker-es-hdfs   |               6 |              34 | /mnt/es     |         2 | /mnt/hdfs           |         0 |
-| qa7-worker-es-kibana |              10 |              44 | /mnt/es     |         2 | /mnt/es_log         |        10 |
-| qa7-worker-es-kibana |              11 |              48 | /mnt/es_log |        13 | /mnt/es             |         3 |
-| qa7-worker-es-kibana |               7 |              40 | /mnt/es     |         2 | /mnt/es_log         |        10 |
-| qa7-worker-es-nn1    |               8 |              41 | /mnt/es     |         3 | /mnt/hdfs_namenode1 |         0 |
-| qa7-worker-hdfs-nn2  |               8 |              43 | /mnt/hdfs   |         1 | /mnt/hdfs_namenode2 |         0 |
-| qa7-worker-storm     |              94 |              56 | /           |        27 | /mnt/local          |        27 |
-| qa7-worker-storm     |              97 |              68 | /mnt/local  |        27 | /                   |        27 |
-| qa7-worker-storm     |              98 |              63 | /mnt/local  |        28 | /                   |        27 |
-| qa7-worker-util      |               1 |              31 | /mnt/local  |        27 | /                   |        36 |
-| qa7-worker-util      |               2 |              32 | /mnt/local  |        27 | /                   |        36 |
-| qa7-worker-zk-kafka  |              61 |              29 | /mnt/kafka  |         7 | /mnt/zk             |         7 |
-| qa7-worker-zk-kafka  |              64 |               9 | /mnt/zk     |         4 | /mnt/kafka          |         6 |
-| qa7-worker-zk-kafka  |              69 |              10 | /mnt/zk     |         7 | /mnt/kafka          |         6 |
-Disk utilization by Elasticsearch is: 3%
-Disk utilization by Elasticsearch log is: 10%
-Disk utilization by HDFS is: 1%
-Disk utilization by Zookeeper is: 7%
-Disk utilization by Kafka is: 6%
+| qa6-Manager          |               8 |              13 | /           |        55 | /mnt/local          |         0 |
+| qa6-Manager          |               5 |              18 | /mnt/local  |         0 | /                   |        26 |
+| qa6-Manager          |               7 |              20 | /           |        27 | /mnt/local          |         0 |
+| qa6-worker-es-hdfs   |               0 |              65 | /mnt/es     |        37 | /mnt/hdfs           |        19 |
+| qa6-worker-es-hdfs   |               0 |              67 | /mnt/es     |        45 | /mnt/hdfs           |        19 |
+| qa6-worker-es-kibana |               0 |              59 | /mnt/es_log |        73 | /mnt/es             |        44 |
+| qa6-worker-es-kibana |               1 |              60 | /mnt/es_log |        63 | /mnt/es             |        35 |
+| qa6-worker-es-kibana |               1 |              60 | /mnt/es     |        28 | /mnt/es_log         |        71 |
+| qa6-worker-es-nn1    |               0 |              66 | /mnt/es     |        42 | /mnt/hdfs_namenode1 |         0 |
+| qa6-worker-hdfs-nn2  |               2 |              62 | /mnt/hdfs   |        18 | /mnt/hdfs_namenode2 |         0 |
+| qa6-worker-storm     |              84 |              50 | /           |        35 | /mnt/local          |        20 |
+| qa6-worker-storm     |              81 |              42 | /mnt/local  |        17 | /                   |        35 |
+| qa6-worker-storm     |              80 |              51 | /           |        35 | /mnt/local          |        23 |
+| qa6-worker-util      |               1 |              44 | /           |        78 | /mnt/local          |        15 |
+| qa6-worker-util      |               1 |              46 | /           |        86 | /mnt/local          |        14 |
+| qa6-worker-zk-kafka  |              45 |               9 | /mnt/kafka  |         0 | /mnt/zk             |        10 |
+| qa6-worker-zk-kafka  |              42 |              59 | /mnt/zk     |        10 | /mnt/kafka          |         0 |
+| qa6-worker-zk-kafka  |              46 |               6 | /mnt/kafka  |         0 | /mnt/zk             |        10 |
