@@ -1,4 +1,4 @@
-All resources usage are in %
+
 | InstanceName         |   Avg-cpu |   Avg-Mem | Disk                |   Used | Disk                |   Used |
 |:---------------------|----------:|----------:|:--------------------|-------:|:--------------------|-------:|
 | MANAGER              |           |           |                     |        |                     |        |
