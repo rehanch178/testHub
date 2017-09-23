@@ -1,3 +1,5 @@
+| InstanceName         |   Mx-cpu |   Mx-mem | Mnt-path            |   Used | Mnt-path            |   Used |
+|:---------------------|---------:|---------:|:--------------------|-------:|:--------------------|-------:|
 | MANAGER              |          |          |                     |        |                     |        |
 | qa7-Manager          |        8 |       14 | /                   |     28 | /mnt/local          |      0 |
 | qa7-Manager          |        8 |       16 | /                   |     25 | /mnt/local          |      0 |
