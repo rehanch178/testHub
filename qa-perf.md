@@ -15,7 +15,7 @@
 | qa7-worker-storm     |       85 |       51 | /                   |     27 | /mnt/local          |     27 |
 | qa7-worker-util      |        2 |       31 | /                   |     30 | /mnt/local          |     27 |
 | qa7-worker-util      |        2 |       31 | /                   |     31 | /mnt/local          |     27 |
+| zookeeper            |          |          |                     |        |                     |        |
 | qa7-worker-zk-kafka  |       80 |        8 | /mnt/zk             |      5 | /mnt/kafka          |      0 |
 | qa7-worker-zk-kafka  |       81 |        8 | /mnt/zk             |      5 | /mnt/kafka          |      0 |
-|                      |          |          |                     |        |                     |        |
 | qa7-worker-zk-kafka  |       63 |       28 | /mnt/zk             |      5 | /mnt/kafka          |      0 |
