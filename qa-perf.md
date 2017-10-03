@@ -1,27 +1,27 @@
 | InstanceName         |  Avg-cpu(%)  |  Avg-Mem(%)  | Disk    |  Used(%)  | Disk          |  Used(%)  |
 |:---------------------|:------------:|:------------:|:--------|:---------:|:--------------|:---------:|
 | MANAGER              |              |              |         |           |               |           |
-| qa7-Manager          |      6       |      18      | /       |    28     | /mnt/local    |     0     |
-| qa7-Manager          |      4       |      17      | /       |    25     | /mnt/local    |     0     |
-| qa7-Manager          |      5       |      17      | /       |    25     | /mnt/local    |     0     |
+| qa6-Manager          |      8       |      20      | /       |    59     | /mnt/local    |     0     |
+| qa6-Manager          |      5       |      18      | /       |    26     | /mnt/local    |     0     |
+| qa6-Manager          |      7       |      21      | /       |    27     | /mnt/local    |     0     |
 | ES-HDFS              |              |              |         |           |               |           |
-| qa7-worker-es-hdfs   |      0       |      25      | /mnt/es |     0     | /mnt/hdfs     |     0     |
-| qa7-worker-es-hdfs   |      0       |      25      | /mnt/es |     0     | /mnt/hdfs     |     0     |
+| qa6-worker-es-hdfs   |      0       |      63      | /mnt/es |    37     | /mnt/hdfs     |    19     |
+| qa6-worker-es-hdfs   |      0       |      66      | /mnt/es |    45     | /mnt/hdfs     |    17     |
 | ES-KIBANA            |              |              |         |           |               |           |
-| qa7-worker-es-kibana |      1       |      64      | /mnt/es |     0     | /mnt/es_log   |     0     |
-| qa7-worker-es-kibana |      1       |      49      | /mnt/es |     0     | /mnt/es_log   |     0     |
-| qa7-worker-es-kibana |      1       |      36      | /mnt/es |     0     | /mnt/es_log   |     0     |
+| qa6-worker-es-kibana |      0       |      61      | /mnt/es |    44     | /mnt/es_log   |    78     |
+| qa6-worker-es-kibana |      1       |      63      | /mnt/es |    35     | /mnt/es_log   |    75     |
+| qa6-worker-es-kibana |      1       |      63      | /mnt/es |    28     | /mnt/es_log   |    67     |
 | NAMENODE             |              |              |         |           |               |           |
-| qa7-worker-es-nn1    |      3       |      32      | /mnt/es |     0     | /mnt/hdfs_nn1 |     0     |
-| qa7-worker-hdfs-nn2  |      1       |      30      | /mnt/es |     0     | /mnt/hdfs_nn2 |     0     |
+| qa6-worker-es-nn1    |      2       |      49      | /mnt/es |    42     | /mnt/hdfs_nn1 |     0     |
+| qa6-worker-hdfs-nn2  |      0       |      59      | /mnt/es |    33     | /mnt/hdfs_nn2 |     0     |
 | STORM                |              |              |         |           |               |           |
-| qa7-worker-storm     |      96      |      46      | /       |    28     | /mnt/local    |    27     |
-| qa7-worker-storm     |      91      |      41      | /       |    28     | /mnt/local    |    27     |
-| qa7-worker-storm     |      99      |      59      | /       |    27     | /mnt/local    |    27     |
+| qa6-worker-storm     |      39      |      45      | /       |    35     | /mnt/local    |    20     |
+| qa6-worker-storm     |      31      |      40      | /       |    35     | /mnt/local    |    17     |
+| qa6-worker-storm     |      70      |      38      | /       |    35     | /mnt/local    |    23     |
 | UTILITY              |              |              |         |           |               |           |
-| qa7-worker-util      |      1       |      31      | /       |    35     | /mnt/local    |    27     |
-| qa7-worker-util      |      1       |      32      | /       |    36     | /mnt/local    |    27     |
+| qa6-worker-util      |      1       |      39      | /       |    80     | /mnt/local    |    15     |
+| qa6-worker-util      |      1       |      42      | /       |    88     | /mnt/local    |    14     |
 | ZOOKEEPER-KAFKA      |              |              |         |           |               |           |
-| qa7-worker-zk-kafka  |      77      |      8       | /mnt/zk |     2     | /mnt/kafka    |     0     |
-| qa7-worker-zk-kafka  |      76      |      9       | /mnt/zk |     2     | /mnt/kafka    |     0     |
-| qa7-worker-zk-kafka  |      61      |      31      | /mnt/zk |     2     | /mnt/kafka    |     0     |
+| qa6-worker-zk-kafka  |      33      |      10      | /mnt/zk |     5     | /mnt/kafka    |     0     |
+| qa6-worker-zk-kafka  |      36      |      62      | /mnt/zk |     5     | /mnt/kafka    |     0     |
+| qa6-worker-zk-kafka  |      36      |      6       | /mnt/zk |     5     | /mnt/kafka    |     0     |
