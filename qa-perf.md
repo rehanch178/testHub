@@ -1,27 +1,27 @@
-| InstanceName             |  Avg-cpu(%)  |  Avg-Mem(%)  | Disk    |  Used(%)  | Disk          |  Used(%)  |
-|:-------------------------|:------------:|:------------:|:--------|:---------:|:--------------|:---------:|
-| MANAGER                  |              |              |         |           |               |           |
-| qa-perf-Manager          |      2       |      16      | /       |    81     | /mnt/local    |     0     |
-| qa-perf-Manager          |      1       |      19      | /       |    27     | /mnt/local    |     0     |
-| qa-perf-Manager          |      19      |      23      | /       |    28     | /mnt/local    |     0     |
-| ES-HDFS                  |              |              |         |           |               |           |
-| qa-perf-worker-es-hdfs   |      4       |      56      | /mnt/es |    47     | /mnt/hdfs     |    16     |
-| qa-perf-worker-es-hdfs   |      13      |      54      | /mnt/es |    68     | /mnt/hdfs     |    16     |
-| ES-KIBANA                |              |              |         |           |               |           |
-| qa-perf-worker-es-kibana |      15      |      51      | /mnt/es |    64     | /mnt/es_log   |    48     |
-| qa-perf-worker-es-kibana |      21      |      48      | /mnt/es |    79     | /mnt/es_log   |    49     |
-| qa-perf-worker-es-kibana |      2       |      36      | /mnt/es |    15     | /mnt/es_log   |    84     |
-| NAMENODE                 |              |              |         |           |               |           |
-| qa-perf-worker-es-nn1    |      6       |      46      | /mnt/es |    55     | /mnt/hdfs_nn1 |     1     |
-| qa-perf-worker-hdfs-nn2  |      14      |      55      | /mnt/es |    68     | /mnt/hdfs_nn2 |     0     |
-| STORM                    |              |              |         |           |               |           |
-| qa-perf-worker-storm     |      81      |      62      | /       |    39     | /mnt/local    |    18     |
-| qa-perf-worker-storm     |      72      |      76      | /       |    39     | /mnt/local    |    19     |
-| qa-perf-worker-storm     |      87      |      86      | /       |    39     | /mnt/local    |    25     |
-| UTILITY                  |              |              |         |           |               |           |
-| qa-perf-worker-util      |      1       |      32      | /       |    63     | /mnt/local    |    14     |
-| qa-perf-worker-util      |      1       |      41      | /       |    66     | /mnt/local    |    13     |
-| ZOOKEEPER-KAFKA          |              |              |         |           |               |           |
-| qa-perf-worker-zk-kafka  |      43      |      13      | /mnt/zk |     2     | /mnt/kafka    |     6     |
-| qa-perf-worker-zk-kafka  |      42      |      8       | /mnt/zk |     2     | /mnt/kafka    |     6     |
-| qa-perf-worker-zk-kafka  |      45      |      8       | /mnt/zk |     2     | /mnt/kafka    |     5     |
+| InstanceName           |  Avg-cpu(%)  |  Avg-Mem(%)  | Disk    |  Used(%)  | Disk          |  Used(%)  |
+|:-----------------------|:------------:|:------------:|:--------|:---------:|:--------------|:---------:|
+| MANAGER                |              |              |         |           |               |           |
+| prod1-Manager          |      2       |      19      | /       |    57     | /mnt/local    |     0     |
+| prod1-Manager          |      2       |      15      | /       |    74     | /mnt/local    |     0     |
+| prod1-Manager          |      1       |      19      | /       |    26     | /mnt/local    |     0     |
+| ES-HDFS                |              |              |         |           |               |           |
+| prod1-worker-es-hdfs   |      6       |      48      | /mnt/es |    31     | /mnt/hdfs     |     1     |
+| prod1-worker-es-hdfs   |      3       |      48      | /mnt/es |    17     | /mnt/hdfs     |     1     |
+| ES-KIBANA              |              |              |         |           |               |           |
+| prod1-worker-es-kibana |      15      |      51      | /mnt/es |    28     | /mnt/es_log   |    64     |
+| prod1-worker-es-kibana |      18      |      53      | /mnt/es |    33     | /mnt/es_log   |    54     |
+| prod1-worker-es-kibana |      5       |      53      | /mnt/es |    23     | /mnt/es_log   |    52     |
+| NAMENODE               |              |              |         |           |               |           |
+| prod1-worker-es-nn1    |      7       |      46      | /mnt/es |    23     | /mnt/hdfs_nn1 |     0     |
+| prod1-worker-hdfs-nn2  |      5       |      46      | /mnt/es |    18     | /mnt/hdfs_nn2 |     0     |
+| STORM                  |              |              |         |           |               |           |
+| prod1-worker-storm     |      73      |      41      | /       |    34     | /mnt/local    |    15     |
+| prod1-worker-storm     |      76      |      39      | /       |    34     | /mnt/local    |    17     |
+| prod1-worker-storm     |      85      |      43      | /       |    34     | /mnt/local    |    20     |
+| UTILITY                |              |              |         |           |               |           |
+| prod1-worker-util      |      1       |      40      | /       |    82     | /mnt/local    |    14     |
+| prod1-worker-util      |      1       |      32      | /       |    83     | /mnt/local    |    15     |
+| ZOOKEEPER-KAFKA        |              |              |         |           |               |           |
+| prod1-worker-zk-kafka  |      49      |      6       | /mnt/zk |     4     | /mnt/kafka    |     2     |
+| prod1-worker-zk-kafka  |      46      |      6       | /mnt/zk |     4     | /mnt/kafka    |     2     |
+| prod1-worker-zk-kafka  |      49      |      19      | /mnt/zk |     3     | /mnt/kafka    |     2     |
