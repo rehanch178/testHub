@@ -1,1 +1,1 @@
-<span style="color:red">some **This is Red Bold.** text</span>
+Roses are <span style="color:red; font-family:Georgia; font-size:2em;">red.</span>
